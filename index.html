@@ -53,12 +53,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="#services" class="nav-item nav-link">Servicios</a>
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="#services" class="nav-item nav-link js-scroll-trigger">Servicios</a>
                 <!--a href="#arbitraje" class="nav-item nav-link">Amazon FBA & Arbitraje</a-->
-                <a href="#about" class="nav-item nav-link">Nosotros</a>
-                <a href="#planes" class="nav-item nav-link">Planes</a>
-                <a href="#contact" class="nav-item nav-link">Contacto</a>
+                <a href="#about" class="nav-item nav-link js-scroll-trigger">Nosotros</a>
+                <a href="#planes" class="nav-item nav-link js-scroll-trigger">Planes</a>
+                <a href="#contact" class="nav-item nav-link js-scroll-trigger">Contacto</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Idioma</a>
                     <div class="dropdown-menu fade-up m-0">
@@ -675,6 +675,13 @@ de producto, peso y volumen del mismo</h6>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script type="text/javascript">    
+           $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+      </script>
+
 </body>
 
 </html>
