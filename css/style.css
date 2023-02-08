@@ -280,6 +280,8 @@
 .price-item,
 .team-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+    border-style: outset;
+    border-width: 15px;
 }
 
 .service-item img,
