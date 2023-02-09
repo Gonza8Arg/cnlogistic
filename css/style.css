@@ -18,6 +18,10 @@
     z-index: 99;
 }
 
+html {
+    scroll-padding-top: 350px;
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
